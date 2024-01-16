@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Customer home</h1>
+
+	<div th : unless = "${isPrmine}" class = "non-Prmine>
+		<a href="pay">Get premium</a> 
+		<br> <a href="logout">LOGOUT</a>
+	</div>
+	
+	<div th:if = "${isPrmine}" class="Prmine">
+	    <table border="1">
+	       <thead>
+	           <tr>
+	              <th>Name</th>
+	           	  <th>Artist</th>
+	           	  <th>Genre</th>
+	           	  <th>Play</th>
+	           </tr>
+	    
+	    </thead>
+	    </table>
+	      
+	
+	</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="stylerestion.css">
+</head>
+<body>
+<h1 class="h">User Registration:</h1>
+	<form action="register" method="post">
+		<div class="username">
+                 <label>User name : </label>
+		        <input type = "text" name = "username"/>
+		</div>
+
+        <div>
+		    <label>Email : </label>
+		    <input type = "email" name = "email"/>
+    </div>
+
+      <div>
+		<label>Password : </label>
+		<input type = "password" name = "password"/>
+      </div>
+      
+      <div>
+		<label>Gender : </label>
+		Male<input type = "radio" name = "gender" value = "male"/>
+		Female<input type = "radio" name = "gender" value = "female"/>
+		other<input type = "radio" name = "gender" value = "other"/>
+      </div>
+
+
+     <div>
+		<label>Role : </label>
+		Admin<input type = "radio" name = "role" value = "admin"/>
+		Customer<input type = "radio" name = "role" value = "customer"/>
+     </div>
+
+     <div>
+		<label>Address : </label>
+		<textarea name = "address"></textarea>
+     </div>
+		
+     
+     <input type="submit" />
+			
+	</form>
+
+</body>
+</html>
