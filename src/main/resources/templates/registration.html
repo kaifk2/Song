@@ -6,46 +6,34 @@
 <link rel="stylesheet" href="stylerestion.css">
 </head>
 <body>
-<h1 class="h">User Registration:</h1>
+  <div class="wrapper">
+	
 	<form action="register" method="post">
-		<div class="username">
-                 <label>User name : </label>
-		        <input type = "text" name = "username"/>
-		</div>
-
-        <div>
-		    <label>Email : </label>
-		    <input type = "email" name = "email"/>
-    </div>
-
-      <div>
-		<label>Password : </label>
+		<h1 class="h">Registration</h1>
+		<label>User name </label>
+		<input type = "text" name = "username"/>
+		<br><br>
+		<label>Email  </label>
+		<input type = "email" name = "email"/>
+		<br><br>
+		<label>Password  </label>
 		<input type = "password" name = "password"/>
-      </div>
-      
-      <div>
-		<label>Gender : </label>
+		<br><br>
+		<label>Gender  </label> <br>
 		Male<input type = "radio" name = "gender" value = "male"/>
 		Female<input type = "radio" name = "gender" value = "female"/>
-		other<input type = "radio" name = "gender" value = "other"/>
-      </div>
-
-
-     <div>
-		<label>Role : </label>
-		Admin<input type = "radio" name = "role" value = "admin"/>
+		Other<input type = "radio" name = "gender" value = "other"/>
+		<br><br>
+		<label>Role  </label> <br>
+		User<input type = "radio" name = "role" value = "admin"/>
 		Customer<input type = "radio" name = "role" value = "customer"/>
-     </div>
-
-     <div>
-		<label>Address : </label>
+		<br><br>
+		<label>Address  </label>
 		<textarea name = "address"></textarea>
-     </div>
-		
-     
-     <input type="submit" />
-			
+		<br><br>
+		<input type="submit" />
+				
 	</form>
-
+</div>
 </body>
 </html>

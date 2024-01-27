@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background: url('Music lover clean wallpaper for android and iphone.jpg');
+}
+
+.wrapper {
+    width: 420px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(200px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: #b7b5b8;
+    border-radius: 20px;
+    margin: 20px auto; 
+}
+
+form {
+    padding: 20px;
+    color: black;
+    ;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input[type="submit"] {
+    background-color: #484be4;
+    color: #f3efef;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+from h1{
+	justify-content: center;
+	text-align: center;
+	
+}

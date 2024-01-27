@@ -1,0 +1,57 @@
+/* newsong.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(c10edd4da98d4fa5b7fc6c88d51e93ff.jpg) no-repeat;
+    background-size: cover;
+   
+    background-position:right;
+
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #f7f7f7; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #10020d;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}

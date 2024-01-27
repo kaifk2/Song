@@ -1,108 +1,105 @@
 *{
- margin: 0;
- padding: 0;
- font-family: "";   
-}
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: seagreen;
-    background:url(3006ef323a3644933cd7f39cb31ccc48.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-}
-.wrapper{
-    width: 420px;
-    border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(3px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    color: #b7b5b8;
-    border-radius: 20px;
-    
-}
-.wrapper h1{
-    font-size:36px ;
-    text-align: center;
-    width: 100%;
-}
-.wrapper .input-box{
-    width: 100%;
-    height: 50px;
-    margin: 30px 0;
-}
-.input-box input{
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    font-size: 20px;
-    color: #fff;
-    border: 2px solid rgba(221, 223, 236, 0.921);
-    
-    
-
-}
-.input-box input::placeholder{
-    color: #fff;
-}
-.btn{
-    width: 100%;
-    height: 50px;
-    border-radius: 45px;
-    color: rgb(1, 1, 7);
-    background: rgb(243, 241, 241);
-    letter-spacing: 1px;
-    
-    
-}
-.btn:hover{
-    background-color: rgb(208, 45, 119);
-}
-.input-box i{
-    position: absolute;
-    right: 30px;
-}
-.wrapper .remener-forgot{
-    display: flex;
-    justify-content: center;
-    margin: -15px 0 15px;
-}
-.remener-forgot label input{
-    accent-color: #fff;
-    margin-right: 3px;
-    text-decoration: none;
-
-}
-.remener-forgot a:hover{
-    text-decoration: underline;
-
-}
-.wrapper .btn{
-    width: 100%;
-    height: 45px;
-    background: #fff;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    font-size: 16px;
-    color: #333;
-    font-weight: 600;
-    font-family: 'Times New Roman', Times, serif
-
-
-}
-.wrapper.remener-link p a{
-    color: #fff;
-    
-}
-.btn:hover{
-    background-color:rgb(71, 71, 236);
+    margin: 0;
+    padding: 0;
    
-}
+   }
+   body{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+       background: seagreen;
+       background:url(3006ef323a3644933cd7f39cb31ccc48.jpg) no-repeat;
+       background-size: cover;
+       background-position: center;
+       
+   }
+   .wrapper{
+       width: 420px;
+       border: 2px solid rgba(255, 255, 255, .2);
+       backdrop-filter: blur(3px);
+       box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+       color: #b7b5b8;
+       border-radius: 20px;
+       
+   }
+   .wrapper h1{
+       font-size:36px ;
+       text-align: center;
+       width: 100%;
+   }
+   .wrapper .input-box{
+       width: 100%;
+       height: 50px;
+       margin: 30px 0;
+   }
+   .input-box input{
+       width: 100%;
+       height: 100%;
+       background: transparent;
+       border: none;
+       outline: none;
+       border-radius: 40px;
+       font-size: 20px;
+       color: #fff;
+       
+       
+   
+   }
+   .input-box input::placeholder{
+       color: #fff;
+   }
+   .btn{
+       width: 100%;
+       height: 50px;
+       border-radius: 45px;
+       color: rgb(1, 1, 7);
+       letter-spacing: 1px;
+       
+       
+   }
+   
+   .input-box i{
+       position: absolute;
+       right: 30px;
+   }
+   .wrapper .remener-forgot{
+       display: flex;
+       justify-content: center;
+       margin: -15px 0 15px;
+   }
+   .remener-forgot label input{
+       accent-color: #fff;
+       margin-right: 3px;
+       text-decoration: none;
+   
+   }
+   .remener-forgot a:hover{
+       text-decoration: underline;
+   
+   }
+   .wrapper .btn{
+       width: 100%;
+       height: 45px;
+       
+       border: none;
+       outline: none;
+       border-radius: 40px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       cursor: pointer;
+       font-size: 16px;
+       color: #333;
+       font-weight: 600;
+       font-family: 'Times New Roman', Times, serif
+   
+   
+   }
+   .wrapper.remener-link p a{
+       color: #fff;
+       
+   }
+   .btn:hover{
+       background-color:rgb(71, 71, 236);
+      
+   }
+   

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    background: url('Three\ ideas\ for\ how\ to\ live\ a\ fuller\ life.jpg') no-repeat;
+    background-size: cover;
+    background-position: cover;
+  
+}
+
+div.gar {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid 0.1px white;
+    
+}
+
+h1 {
+    display: flex;
+    color: #333;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Button-specific styles */
+a[href="newSong"],
+a[href="viewSongs"],
+a[href="createPlaylist"],
+a[href="viewPlaylists"] {
+    background-color: #3250fd; /* Blue */
+}
+
+
+
