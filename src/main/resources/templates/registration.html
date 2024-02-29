@@ -11,22 +11,22 @@
 	<form action="register" method="post">
 		<h1 class="h">Registration</h1>
 		<label>User name </label>
-		<input type = "text" name = "username"/>
+		<input type = "text" name = "username"  required />
 		<br><br>
 		<label>Email  </label>
-		<input type = "email" name = "email"/>
+		<input type = "email" name = "email" required />
 		<br><br>
 		<label>Password  </label>
-		<input type = "password" name = "password"/>
+		<input type = "password" name = "password" required />
 		<br><br>
 		<label>Gender  </label> <br>
-		Male<input type = "radio" name = "gender" value = "male"/>
-		Female<input type = "radio" name = "gender" value = "female"/>
-		Other<input type = "radio" name = "gender" value = "other"/>
+		Male<input type = "radio" name = "gender" value = "male" required/>
+		Female<input type = "radio" name = "gender" value = "female" required/>
+		Other<input type = "radio" name = "gender" value = "other" required/>
 		<br><br>
 		<label>Role  </label> <br>
-		User<input type = "radio" name = "role" value = "admin"/>
-		Customer<input type = "radio" name = "role" value = "customer"/>
+		User<input type = "radio" name = "role" value = "admin" required/>
+		Customer<input type = "radio" name = "role" value = "customer" required/>
 		<br><br>
 		<label>Address  </label>
 		<textarea name = "address"></textarea>
